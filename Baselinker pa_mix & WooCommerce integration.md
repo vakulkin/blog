@@ -1,5 +1,6 @@
 ---
 share: "true"
+title: Baselinker pa_mix & WooCommerce integration
 ---
 Niedawno miałem styczność z ustawieniami Baselinkera pa_mixer (definicje pól opisowych wychodzących z BL) w integracji WooCommerce. Wiem, że ta informacja może być cenna, ponieważ obecna dokumentacja Baselinkera nie zawiera żadnych informacji o pa_mixer.
 
@@ -39,6 +40,7 @@ Support odpowiadał następująco:
 - **Elastyczność pa_mixer:** Dzięki pa_mixer możemy definiować niestandardowe zmienne (np. `true_price`), stosować konkatenację oraz kontrolować, które dane są przesyłane do WooCommerce.
 - **Brak oficjalnej dokumentacji:** Mimo braku publicznej dokumentacji opcji zaawansowanych, wsparcie Baselinkera jest pomocne w konfigurowaniu niestandardowych ustawień.
 - **Optymalizacja przetwarzania:** Umożliwienie przesyłania ceny hurtowej do pola `_justb2b_price` bez nadpisywania ceny detalicznej poprawia spójność danych i efektywność synchronizacji między systemami.
+
 
 [[baselinker|baselinker]]
 [[justb2b|justb2b]]
