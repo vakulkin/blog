@@ -1,5 +1,6 @@
 ---
 share: "true"
+url: baselinker-pa-mixer
 ---
 # Baselinker pa_mix & WooCommerce integration
 
@@ -43,8 +44,8 @@ Support odpowiadał następująco:
 - **Optymalizacja przetwarzania:** Umożliwienie przesyłania ceny hurtowej do pola `_justb2b_price` bez nadpisywania ceny detalicznej poprawia spójność danych i efektywność synchronizacji między systemami.
 
 
-baselinker
-justb2b
-baselinker integration
+[[baselinker|baselinker]]
+[[justb2b|justb2b]]
+[[baselinker integration|baselinker integration]]
 
 
