@@ -14,7 +14,7 @@ Po tygodniu wymiany maili z supportem Baselinkera znalazłem następujące rozwi
 - Tworzymy dwie różne integracje z WooCommerce, które nazwałem „woo detal” oraz „woo hurt” – można użyć tych samych kluczy API WooCommerce.  
 - „Woo detal” ustawiamy standardowo – można również ustawić automatyczną synchronizację stanów magazynowych i cen co godzinę.  
 - „Woo hurt” jest bardziej skomplikowane – musimy włączyć jedynie synchronizację cen co godzinę i nie synchronizować stanów, ponieważ to już odbywa się w „woo detal”.  
-- Następnie musimy wykonać kluczowe działanie w integracji → woo hurt → ustawienia → zaawansowane → pa_mixer, wklejając następującą wartość:  
+- Następnie musimy wykonać kluczowe działanie w integracji → woo hurt → ustawienia → zaawansowane → pa_mixer, wklejając następującą wartość:
   `true_price = "{price}", price = "{null}", {meta_data._justb2b_price} = "{true_price}"`  
   Czyli nie wysyłamy standardowej ceny, lecz przesyłamy tę cenę do niestandardowego pola produktu `_justb2b_price`.
 
@@ -42,8 +42,8 @@ Support odpowiadał następująco:
 - **Optymalizacja przetwarzania:** Umożliwienie przesyłania ceny hurtowej do pola `_justb2b_price` bez nadpisywania ceny detalicznej poprawia spójność danych i efektywność synchronizacji między systemami.
 
 
-[[baselinker|baselinker]]
-[[justb2b|justb2b]]
-[[baselinker integration|baselinker integration]]
+baselinker
+justb2b
+baselinker integration
 
 
