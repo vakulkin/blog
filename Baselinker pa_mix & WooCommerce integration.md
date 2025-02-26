@@ -1,7 +1,8 @@
 ---
 share: "true"
-title: Baselinker pa_mix & WooCommerce integration
 ---
+# Baselinker pa_mix & WooCommerce integration
+
 Niedawno miałem styczność z ustawieniami Baselinkera pa_mixer (definicje pól opisowych wychodzących z BL) w integracji WooCommerce. Wiem, że ta informacja może być cenna, ponieważ obecna dokumentacja Baselinkera nie zawiera żadnych informacji o pa_mixer.
 
 Potrzebowałem rozwiązać następujący problem:  
